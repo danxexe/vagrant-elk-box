@@ -23,7 +23,7 @@ file { '/vagrant/elasticsearch':
 }
 
 # Java is required
-class { 'java': }
+# class { 'java': }
 
 # Elasticsearch
 class { 'elasticsearch':
